@@ -9,12 +9,18 @@ section {
     background: burlywood;
     }
 
-header{
+header {
     background-color: burlywood;
+}
+
+header h1 { 
+    padding: 3px;
+    padding-top: 10px;
 }
 
 header h2 {
     padding: 5px;
+    padding-bottom: 10px;
 }
 
 nav img {
@@ -33,7 +39,16 @@ main {
     padding: 50px;
 }
 
+main figcaption {
+    text-align: center;
+}
+
+main p {
+    padding-top: 25px;
+}
+
 footer {
     background: burlywood;
     text-align: center;
+    padding: 25px;
 }
