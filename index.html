@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width"/>
     <title>Guinea Pig Hairstyles</title>
     <link rel="stylesheet" href="style.css">
-    <script>
+    <script src="script.js"></script>"
+    <!-- <script>
       console.log("Hello Piggy Fan!");
       alert("Not a Piggy Fan! ? Click on Partner Link to learn about Dog Hairstyles!");
 
       const usersName = prompt("Tell us your name, so we can personalize your experience here! **Special message for anyone named Piggy Fan!");
       console.log(usersName);
       document.write("Hi, " + usersName + ". Welcome to the wonderful world of Piggy Hairstyles!");
-    </script>
+    </script> -->
 </head>
 <body>
+  <script>const theirName = getName();</script>
+  <script>let theirEmail = getEmail();</script>
   <header>
     <nav>
     <img src="Images/gplogo.png" alt="Circular white logo. Words around it read Guinea Pig Hairstyles. Center is yellow and contains picture of a cute guinea pig." width="100"/>
     <button><a>Home</a></button>  
-    <button><a href="https://alysondorfman.github.io/hello-world/">Partner Link!</a></button>
+    <button><a href="https://alysondorfman.github.io/hello-world/">Partner Link</a></button>
+    <script>greetUser();</script>
     </nav>
-     <script> 
+  
+    <!--<script> 
        let userEmail = prompt("Want weekly Piggy Updates? Send us your email!");
        console.log(userEmail)
       if (usersName == "Piggy Fan!"){
@@ -39,9 +44,10 @@
        } else {
          document.write("Are you sure you aren't a Piggy Fan! ??");
        } 
-    </script>
+    </script>-->
     <h1>Hair Styles for Guinea Pigs</h1>
     <h2>Greeting Content: dead men tell no tales yawl lass measured fer yer chains</h2>
+    <script>specialMessage(theirName);</script>
   </header>
  
   <main>
@@ -72,7 +78,8 @@
        of conduct overhaul dead men tell no tales yawl lass measured fer yer 
        chains. Hardtack chase killick hulk matey coxswain bucko gaff lad scuttle.</p>
 
-    <p><script>document.write("Thank you for visiting us, " + usersName + ". We'll send your Piggy News to " + userEmail);</script></p>
+    <script>thankYouMessage();</script>
+       <!-- <p><script>document.write("Thank you for visiting us, " + usersName + ". We'll send your Piggy News to " + userEmail);</script></p>-->
 </main>
   <footer>
     <p>&copy; 2023 Lara Ramsey, All Rights Reserved</p>
