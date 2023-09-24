@@ -1,7 +1,7 @@
 //'use strict';
 
 console.log("Hello Piggy Fan!");
-alert("You've found the hub for Piggy Hairstyles! Not a Piggy Fan! ? Enter and click on Partner Link to learn about Dog Hairstyles!");
+alert("You've found the hub for Piggy Hairstyles! Not a Piggy Fan! ? Enter anyway and click on Partner Link to learn about Dog Hairstyles!");
 
 function getName(){
     const usersName = prompt("Tell us your name so we can personalize your experience! **Special message for anyone named Piggy Fan!");
