@@ -48,6 +48,10 @@ main p {
     padding-top: 25px;
 }
 
+.hairdemo-img {
+    width: 200px;
+}
+
 footer {
     background: burlywood;
     text-align: center;

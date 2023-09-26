@@ -58,8 +58,9 @@ function thankYouMessage() {
 }
 
 function rateMyPage(){
-    let rating = prompt("Hello Hooman. Even tho U haven't seen dis page yet, U really should give it 5 out of 5 wheeks. Pleeze rate our page 1 to 5.");
+    let rating = prompt("Now hooman. Plez rate our web page 1 thru 5. The more luv U gives us, the more piggy luvs U get back!");
+
     for (let i = 0; i < rating; i++){
-        document.write("<img class='loop-img' src:'Images/skinnypig.jpg' alt='cutest skinny pig, giving the hooman some side-eye'/>");
+        document.write("<img class='loop-img' src='Images/skinnypig.jpg' alt='cute skinny pig, giving u some luve!'/>");
     }
 }
